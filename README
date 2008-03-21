@@ -1,0 +1,17 @@
+#==============================================================
+#
+#  Name: README
+#
+#  Rem:  This is a driver for the Acromag IP470 32-channel 
+#        Industry Pack (IP) TTL digital I/O card. 
+#
+#==============================================================
+#
+EPICS Verions:
+--------------
+This driver has currently been built and tested at SPEAR with EPICS 3.14.8.2.
+This driver has implimented EPICS OSI function calls and is OSI complient.
+
+Operating System:
+-------------------
+This driver has only been tested  under RTEMS. 
