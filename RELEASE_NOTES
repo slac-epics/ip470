@@ -3,8 +3,19 @@
 #  Name: RELEASE_NOTES
 #
 #  Rem: This files describes release notes for
-#       the Acromag ip47- driver and device support.      
+#       the Acromag ip470 driver and device support.  
+# 
+#  Auth: dd-mmm-yyyy, Andy Foster        (USERNAME)
+#  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
+#--------------------------------------------------------------
+#  Mod:
+#        29-Apr-2009, K. Luchini         (LUCHINI);
+#          release ip470-R1-0-0-lcls1
 #
 #==============================================================
 #
+ip470-R1-0-0-lcls1:  Use lcls tag naming convention, consider
+                     SSRL package as an outside maintainer sicne
+                     Spear has their own CVS repository.
+
 ip470-R1-0-0:   Initial release of code from SPEAR.
