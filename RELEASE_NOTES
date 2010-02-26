@@ -14,6 +14,9 @@
 #
 #==============================================================
 #
+ip470-R1-0-0-lcls2:  Built against rtems 4.9.3 and EPICS BASE:
+                     base-R3-14-8-2-lcls5
+
 ip470-R1-0-0-lcls1:  Use lcls tag naming convention, consider
                      SSRL package as an outside maintainer sicne
                      Spear has their own CVS repository.
