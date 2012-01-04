@@ -16,7 +16,12 @@
 #
 #==============================================================
 #
+ip470-R1-0-0-lcls4:  Built against IPAC: ipac-R2-8-lcls8
+                                   MISCUTILS: miscUtils-R2-2-2
+                     Modified configure/RELEASE to use eco style.
+
 ip470-R1-0-0-lcls3:  Built against rtems 4.9.4 and EPICS BASE:
+
                      base-R3-14-8-2-lcls6
 
 ip470-R1-0-0-lcls2:  Built against rtems 4.9.3 and EPICS BASE:
