@@ -16,6 +16,9 @@
 #
 #==============================================================
 #
+
+ip470-R1-0-0_1-0: Build against ipac-R2-11_1-0
+
 ip470-R1-0-0-lcls4:  Built against IPAC: ipac-R2-8-lcls8
                                    MISCUTILS: miscUtils-R2-2-2
                      Modified configure/RELEASE to use eco style.
