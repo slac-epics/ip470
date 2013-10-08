@@ -17,6 +17,8 @@
 #==============================================================
 #
 
+ip470-R1-0-0_1-1: Build against ipac-R2-11-lcls1
+
 ip470-R1-0-0_1-0: Build against ipac-R2-11_1-0
 
 ip470-R1-0-0-lcls4:  Built against IPAC: ipac-R2-8-lcls8
