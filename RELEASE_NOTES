@@ -16,6 +16,12 @@
 #
 #==============================================================
 #
+ip470-R1-0-0_1-2:  23-Apr-2013   K. Luchini  (luchini)
+                  Build against ipac-R2-11_1-0
+                  and add XPIO module, which now
+                  contains xipIoParse() function that
+                  was formally included  in the ipac module 
+                  file drvXy9660.c
 
 ip470-R1-0-0_1-1: Build against ipac-R2-11-lcls1
 
