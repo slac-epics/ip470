@@ -16,6 +16,10 @@
 #
 #==============================================================
 #
+ip470-R1-0-0_1-3: 11-May-2015   S. Hoobler (sonya)
+                  Build against ipac-R2-11_1-2 and xipIo-R1-0-1
+		  Build for target linuxRT-x86_64
+
 ip470-R1-0-0_1-2:  23-Apr-2013   K. Luchini  (luchini)
                   Build against ipac-R2-11_1-0
                   and add XPIO module, which now
