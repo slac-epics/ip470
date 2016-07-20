@@ -16,6 +16,9 @@
 #
 #==============================================================
 #
+ip470-R1-0-0_1-4: 20-Jul-2016   S. Hoobler (sonya)
+                  Build against miscUtils-R2-2-3
+
 ip470-R1-0-0_1-3: 11-May-2015   S. Hoobler (sonya)
                   Build against ipac-R2-11_1-2 and xipIo-R1-0-1
 		  Build for target linuxRT-x86_64
