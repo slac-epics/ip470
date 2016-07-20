@@ -19,7 +19,7 @@ EPICS_MODULES=$(MODULES_SITE_TOP)
 # IOC apps or other Support apps
 # =============================================================
 IPAC_MODULE_VERSION=ipac-R2-11_1-2
-MISCUTILS_MODULE_VERSION=miscUtils-R2-2-2
+MISCUTILS_MODULE_VERSION=miscUtils-R2-2-3
 XIPIO_MODULE_VERSION=xipIo-R1-0-1
 
 # ============================================================
