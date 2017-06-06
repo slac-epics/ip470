@@ -16,7 +16,10 @@
 #
 #==============================================================
 #
-R1.1.0: 15-Feb-2016
+R1.2.0: 06-Jun-2017
+    Bumped miscUtils version to R2.2.5
+
+R1.1.0: 15-Feb-2017
     First version of ip470 working with the new Git Workflow.
     Bump dependencies version to the latest.
 
