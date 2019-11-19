@@ -2,6 +2,11 @@
 TOP = ../..
 include $(TOP)/configure/CONFIG
 
+ #----------------------------------------
+ #  ADD MACRO DEFINITIONS AFTER THIS LINE
+ #=============================
+USR_CFLAGS += -DUSE_TYPED_RSET -DUSE_TYPED_DSET -DUSE_TYPED_DRVET
+
 DBD += drvAvme470.dbd
 DBD += devAvme470.dbd
 

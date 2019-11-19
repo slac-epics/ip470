@@ -138,16 +138,21 @@ static struct config470 *ptrAvme470First = NULL;
 #ifndef NO_EPICS
 /* EPICS Driver Support Entry Table */
 
+#ifndef USE_TYPED_DRVET
 struct drvet drvAvme470 = {
   2,
   (DRVSUPFUN) avme470Report,
   (DRVSUPFUN) avme470Initialise
 };
+#else
+const drvet drvAvme470 = {2, avme470Report, avme470Initialise};
+#endif
+
 epicsExportAddress(drvet, drvAvme470);
 #endif
 
 
-int avme470Report( int interest )
+long avme470Report( int interest )
 {
   int               i;
   int               j;
@@ -215,7 +220,7 @@ int avme470Report( int interest )
 }
 
 
-int avme470Initialise( void )
+long avme470Initialise( void )
 {
   struct config470 *plist;
   int              status;

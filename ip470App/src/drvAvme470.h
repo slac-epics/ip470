@@ -154,8 +154,8 @@ struct config470
 #endif
 };
 
-int           avme470Report( int interest );
-int           avme470Initialise( void );
+long           avme470Report( int interest );
+long           avme470Initialise( void );
 
 #ifndef NO_EPICS
 int           avme470GetIoScanpvt( char *name, unsigned char port, unsigned char point, 
