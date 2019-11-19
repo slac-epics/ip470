@@ -17,6 +17,10 @@
 #==============================================================
 #
 
+R1.2.3: 19-Nov-2019, M. Donadio (marcio)
+    - Upgraded to ipac/R2.15-1.0.0.
+    - Changes in DRVET to build for EPICS 7.
+
 R1.2.2: 20-Oct-2019, K. uchini (luchini)
     - Using IPAC R2.14-0.2.0
 
