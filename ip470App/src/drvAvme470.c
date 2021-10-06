@@ -242,11 +242,11 @@ long avme470Initialise( void )
 
     if( plist->e_mode == ENHANCED )
     {
-printf("ipmIntConnect(%d,%d,%d,0x%p,0x%x)\n",
-	plist->card, plist->slot, plist->vector, plist->isr, (int)plist);
+printf("ipmIntConnect(%d,%d,%d,0x%p,0x%lx)\n",
+	plist->card, plist->slot, plist->vector, plist->isr, (size_t)plist);
 
       if( (status=ipmIntConnect(plist->card, plist->slot, plist->vector, 
-                                plist->isr, (int)plist)) )
+                                plist->isr, (size_t)plist)) )
       {
         printf("avme470Initialise: %s: Error %d from ipmIntConnect\n", 
                 plist->pName, status);
@@ -798,7 +798,7 @@ long avme470Write( char *name, short port, short bit, int writeFlag,
 unsigned char avme470Input( unsigned int *addr ) 
 {
 /*  return((unsigned char) *((char *)addr)); */
-  return (unsigned char) in_8((volatile char*)addr);
+  return (unsigned char) in_8((volatile unsigned char*)addr);
 }
 
 
