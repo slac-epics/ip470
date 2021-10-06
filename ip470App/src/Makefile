@@ -19,6 +19,7 @@ LIBSRCS += devAvme470.c
 # Link everything into a library:
 LIBRARY_IOC_vxWorks = Avme470
 LIBRARY_IOC_RTEMS   = Avme470
+LIBRARY_IOC_Linux   = Avme470
 Avme470_LIBS += Ipac
 Avme470_LIBS += xipIo
 
