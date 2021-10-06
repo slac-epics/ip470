@@ -21,7 +21,7 @@
 # ==========================================================
 IPAC_MODULE_VERSION=R2.15-1.0.0
 MISCUTILS_MODULE_VERSION=R2.2.5
-XIPIO_MODULE_VERSION=R1.1.0
+XIPIO_MODULE_VERSION=R1.2.0
 
 # ==========================================================
 # Define module paths using pattern
@@ -31,8 +31,7 @@ XIPIO_MODULE_VERSION=R1.1.0
 # ==========================================================
 IPAC=$(EPICS_MODULES)/ipac/$(IPAC_MODULE_VERSION)
 MISCUTILS=$(EPICS_MODULES)/miscUtils/$(MISCUTILS_MODULE_VERSION)
-XIPIO=/afs/slac/g/controls/development/users/marcio/xipIo/xipIo-git
-#XIPIO=$(EPICS_MODULES)/xipIo/$(XIPIO_MODULE_VERSION)
+XIPIO=$(EPICS_MODULES)/xipIo/$(XIPIO_MODULE_VERSION)
 
 # ============================================================
 #  Module Location
